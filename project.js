@@ -63,7 +63,7 @@ function displayData() {
                 }
             });
 
-            // Update the content of the respective sections
+            
             document.querySelector("#electronics").innerHTML = `<h1>Electronics Items</h1>${electronicsData}`;
             document.querySelector("#fooditems").innerHTML = `<h1>Food Items</h1>${foodData}`;
             document.querySelector("#skincare").innerHTML = `<h1>Skincare Items</h1>${skincareData}`;
